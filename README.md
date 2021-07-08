@@ -15,6 +15,7 @@ Primeros pasos:
     - NodeJs/NPM
 Segundo paso:
     - Esta configurado para enviar correo, solo necesita las credenciales para su mail driver de preferencia
+    - copiar .env.example  como .env
     - Realizar con composer los siguientes scripts: 
         * composer install
     -Realizar con npm los siguientes scripts:
