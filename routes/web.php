@@ -20,3 +20,5 @@ Route::get('/', function(){
 Route::get('contact', function(){
     return view('pages.contact');
 });
+
+Route::post('send/email', 'ContactController@mail');

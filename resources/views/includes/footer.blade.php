@@ -35,3 +35,5 @@
 <script src="{{ asset('assets/vendor/wow/wow.min.js') }}"></script>
 
 <script src="{{ asset('assets/js/mobster.js') }}"></script>
+<script src="{{ asset('assets/js/mobster.js') }}"></script>
+<script src="{{ mix('js/app.js') }}" defer></script>

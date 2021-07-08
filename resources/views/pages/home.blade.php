@@ -10,7 +10,7 @@
                             <h1 class="mb-4">Manage your Finance easier</h1>
                             <p class="mb-4">Mobster has features to view and manage <br>
                                 our finances, such as transfer, and statistics.</p>
-                            <a href="#" class="btn btn-primary rounded-pill">Get App Now</a>
+                            <a href="/contact" class="btn btn-primary rounded-pill">Get App Now</a>
                         </div>
                         <div class="col-lg-6 d-none d-lg-block wow zoomIn">
                             <div class="img-place mobile-preview shadow floating-animate">
