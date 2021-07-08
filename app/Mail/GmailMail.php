@@ -10,15 +10,15 @@ use Illuminate\Queue\SerializesModels;
 class GmailMail extends Mailable
 {
     use Queueable, SerializesModels;
-
+    private $show;
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($data)
     {
-        //
+        $this->show = $data;
     }
 
     /**
@@ -28,6 +28,7 @@ class GmailMail extends Mailable
      */
     public function build()
     {
-        return $this->view('view.name');
+        return $this->from('mobster_contact@mobster.com')
+            ->view('emails.emailcontact', ['detail' => $this->show]);
     }
 }

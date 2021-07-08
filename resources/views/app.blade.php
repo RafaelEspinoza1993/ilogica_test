@@ -7,10 +7,9 @@
 
 <body>
     @include('includes.sidebar')
-        
-        @yield('content')
-
+        <div id='app'>
+            @yield('content')
+        </div>
     @include('includes.footer')
 </body>
-
 </html>
