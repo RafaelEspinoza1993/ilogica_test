@@ -1968,6 +1968,7 @@ __webpack_require__.r(__webpack_exports__);
           _this.message = response.data.message;
           _this.alert = true;
         } else {
+          alert('Recuerda configurar .env para correos');
           console.log(response.data.message);
         }
       });
@@ -50161,8 +50162,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /opt/lampp/htdocs/ilogica/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /opt/lampp/htdocs/ilogica/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /var/www/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /var/www/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

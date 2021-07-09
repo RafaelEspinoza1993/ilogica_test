@@ -56,6 +56,7 @@ export default {
           this.message = response.data.message;
           this.alert = true
         } else {
+          alert('Recuerda configurar .env para correos')
           console.log(response.data.message);
         }
       });

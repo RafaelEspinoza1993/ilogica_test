@@ -22,6 +22,7 @@ docker-compose up -d
 * **Realizar con npm los siguientes scripts:**
 ```
     docker-compose exec app npm install
+    docker-compose exec app npm run dev
 ```
 * **Crear key con:**
 ```
